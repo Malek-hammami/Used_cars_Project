@@ -65,9 +65,9 @@ GROUP BY  BRAND_NAME
 ORDER BY  sum(price) desc;
 
 
- SELECT count(brand) as Brand_count , brand
- FROM used_cars
- GROUP BY  brand
- ORDER BY Brand_count desc ;
+SELECT count(brand) as Brand_count , brand
+FROM used_cars
+GROUP BY  brand
+ORDER BY Brand_count desc ;
 
 

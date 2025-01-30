@@ -21,12 +21,6 @@ from used_cars
 where horsepower > 16;
 
 
-delete from used_cars
-where horsepower > 16;
-
-
-
-
 --
 select distinct(brand) as BRAND_NAME , sum(price)
 from used_cars

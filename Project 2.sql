@@ -4,8 +4,8 @@ SELECT * from used_cars;
 -- checking/cleaning duplicates
 SELECT mileage , price , `year`,model, count(*)
 FROM used_cars
-group by Mileage,Price, `year`, model
-having count(*) > 1;
+GROUP BY  Mileage,Price, `year`, model
+HAVING count(*) > 1;
 
 DELETE FROM used_cars
 WHERE  (mileage , price , `year`,model) IN(
@@ -13,7 +13,7 @@ SELECT mileage , price , `year`,model from(
 SELECT mileage , price , `year`,model
 FROM used_cars
 GROUP BY  Mileage,Price, `year`, model
-having count(*) > 1) as duplicates);
+HAVING count(*) > 1) as duplicates);
 
 -- DATA CLEANING 
 

@@ -1,6 +1,5 @@
 SELECT * from used_cars;
 
-
 -- checking/cleaning duplicates
 SELECT mileage , price , `year`,model, count(*)
 FROM used_cars
@@ -56,13 +55,12 @@ WHERE Mileage > 10000000;
 SELECT * FROM used_cars
 WHERE `year` is NULL and horsepower is NULL;
 
-
-
 -- ANALYSING DATA
-SELECT DISTINCT(brand) as BRAND_NAME , sum(price)
+
+SELECT distinct(brand) as BRAND_NAME , sum(price) as TOTAL_PRICE ,ROUND(AVG(price),2) as AVERAGE_PRICE
 FROM used_cars
-GROUP BY  BRAND_NAME
-ORDER BY  sum(price) desc;
+GROUP BY BRAND_NAME
+ORDER BY sum(price) desc;
 
 
 SELECT count(brand) as Brand_count , brand

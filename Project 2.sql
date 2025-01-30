@@ -1,4 +1,3 @@
-SELECT * from new_cars;
 SELECT * from used_cars;
 
 

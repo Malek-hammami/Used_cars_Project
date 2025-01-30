@@ -68,4 +68,11 @@ FROM used_cars
 GROUP BY  brand
 ORDER BY Brand_count desc ;
 
+-- correlation_coefficient checking relation between horsepower and price
+
+select (count(*)*sum(horsepower*price)-sum(horsepower)*sum(price))/
+(sqrt((COUNT(*)*SUM(price*price)-sum(price)*sum(price))*
+(count(*)*SUM(horsepower*horsepower)-sum(horsepower)*sum(horsepower)))) as correlation_coefficient
+FROM used_cars
+
 

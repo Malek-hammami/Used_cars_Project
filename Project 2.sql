@@ -14,23 +14,36 @@ SELECT mileage , price , `year`,model
 FROM used_cars
 GROUP BY  Mileage,Price, `year`, model
 having count(*) > 1) as duplicates);
---
-SELECT * 
-FROM  used_cars
-WHERE horsepower > 1000
-ORDER BY  price DESC;
 
-DELETE FROM used_cars
+-- DATA CLEANING 
+
+SELECT * 
+FROM used_cars
+WHERE horsepower > 1000
+ORDER BY price DESC;
+
+UPDATE used_cars
+SET horsepower = NULL 
 WHERE horsepower > 1000;
 
+SELECT * FROM used_cars
+WHERE `year` < 1900 or `year` > 2025;
 
---
+SELECT * FROM used_cars
+WHERE `year` LIKE '9_';
+
+update used_cars
+SET `year` = 1997
+WHERE `year` LIKE '9_';
+
+
+-- ANALYSING DATA
 SELECT DISTINCT(brand) as BRAND_NAME , sum(price)
 FROM used_cars
 GROUP BY  BRAND_NAME
 ORDER BY  sum(price) desc;
 
---
+
  SELECT count(brand) as Brand_count , brand
  FROM used_cars
  GROUP BY  brand

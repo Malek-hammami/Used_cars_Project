@@ -1,36 +1,40 @@
-select* from new_cars;
-select * from used_cars;
+SELECT * from new_cars;
+SELECT * from used_cars;
 
 
 -- checking/cleaning duplicates
-select mileage , price , `year`,model, count(*)
-from used_cars
+SELECT mileage , price , `year`,model, count(*)
+FROM used_cars
 group by Mileage,Price, `year`, model
 having count(*) > 1;
 
-delete from used_cars
+DELETE FROM used_cars
 WHERE  (mileage , price , `year`,model) IN(
-select mileage , price , `year`,model from(
-select mileage , price , `year`,model
-from used_cars
-group by Mileage,Price, `year`, model
+SELECT mileage , price , `year`,model from(
+SELECT mileage , price , `year`,model
+FROM used_cars
+GROUP BY  Mileage,Price, `year`, model
 having count(*) > 1) as duplicates);
 --
-select * 
-from used_cars
-where horsepower > 16;
+SELECT * 
+FROM  used_cars
+WHERE horsepower > 1000
+ORDER BY  price DESC;
+
+DELETE FROM used_cars
+WHERE horsepower > 1000;
 
 
 --
-select distinct(brand) as BRAND_NAME , sum(price)
-from used_cars
-group by BRAND_NAME
-order by sum(price) desc;
+SELECT DISTINCT(brand) as BRAND_NAME , sum(price)
+FROM used_cars
+GROUP BY  BRAND_NAME
+ORDER BY  sum(price) desc;
 
 --
- select count(brand) as Brand_count , brand
- from used_cars
- group by brand
- order by Brand_count desc ;
+ SELECT count(brand) as Brand_count , brand
+ FROM used_cars
+ GROUP BY  brand
+ ORDER BY Brand_count desc ;
 
 

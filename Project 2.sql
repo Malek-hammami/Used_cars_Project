@@ -36,6 +36,27 @@ update used_cars
 SET `year` = 1997
 WHERE `year` LIKE '9_';
 
+SELECT * FROM used_cars
+WHERE `year` LIKE '2__';
+
+UPDATE used_cars
+SET `year` = 2016
+WHERE `year` LIKE '2__';
+
+UPDATE used_cars
+SET `year` = NULL 
+WHERE `year` < 1900 or `year` > 2025;
+
+SELECT * FROM used_cars
+WHERE Mileage > 10000000;
+
+DELETE FROM used_cars
+WHERE Mileage > 10000000;
+
+SELECT * FROM used_cars
+WHERE `year` is NULL and horsepower is NULL;
+
+
 
 -- ANALYSING DATA
 SELECT DISTINCT(brand) as BRAND_NAME , sum(price)

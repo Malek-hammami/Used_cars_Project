@@ -63,10 +63,20 @@ GROUP BY BRAND_NAME
 ORDER BY sum(price) desc;
 
 
-SELECT count(brand) as Brand_count , brand
+SELECT `Year`, brand as Brand_Name,  ROUND(AVG(price),2) as AVERAGE_PRICE
+FROM used_cars
+group by `year` , Brand_Name
+order by `year` desc ;
+
+SELECT  brand,count(*) as Car_count 
 FROM used_cars
 GROUP BY  brand
-ORDER BY Brand_count desc ;
+ORDER BY Car_count desc ;
+
+SELECT fuel, count(*) AS Car_count
+FROM used_cars
+GROUP BY fuel
+ORDER BY Car_count DESC;
 
 -- correlation_coefficient checking relation between horsepower and price
 

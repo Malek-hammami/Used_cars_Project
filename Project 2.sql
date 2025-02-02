@@ -62,13 +62,6 @@ FROM used_cars
 GROUP BY BRAND_NAME
 ORDER BY sum(price) desc;
 
--- most popular cars
-
-SELECT count(brand) as Brand_count , brand
-FROM used_cars
-GROUP BY  brand
-ORDER BY Brand_count DESC 
-limit 10;
 
 -- yearly average price 
 

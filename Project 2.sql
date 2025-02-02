@@ -82,6 +82,7 @@ ORDER BY  AVG_price asc
 LIMIT 1 );
 
 -- location analysis
+
 SELECT distinct(Location)as city  ,sum( price) as Total_price 
 FROM used_cars
 GROUP BY  city

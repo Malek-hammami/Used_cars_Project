@@ -114,21 +114,33 @@ ORDER BY Number_of_Models desc;
 select (count(*)*sum(horsepower*price)-sum(horsepower)*sum(price))/
 (sqrt((COUNT(*)*SUM(price*price)-sum(price)*sum(price))*
 (count(*)*SUM(horsepower*horsepower)-sum(horsepower)*sum(horsepower)))) as correlation_coefficient
-FROM used_cars ; -- when horsepower + ==> price++
+FROM used_cars ; -- when horsepower + ==> price+
 
 -- year and price
 
 select (count(*)*sum(`year`*price)-sum(`year`)*sum(price))/
 (sqrt((COUNT(*)*SUM(price*price)-sum(price)*sum(price))*
 (count(*)*SUM(`year`*`year`)-sum(`year`)*sum(`year`)))) as correlation_coefficient
-FROM used_cars ; -- when year + ==> price+
+FROM used_cars ; -- when year + ==> price++
 
 -- Mileage and price
 
 select (count(*)*sum(Mileage*price)-sum(Mileage)*sum(price))/
 (sqrt((COUNT(*)*SUM(price*price)-sum(price)*sum(price))*
 (count(*)*SUM(Mileage*Mileage)-sum(Mileage)*sum(Mileage)))) as correlation_coefficient
-FROM used_cars ; -- when Mileage+ ==> price--
--- Mileage > Horsepower > year
+FROM used_cars ; -- when Mileage+ ==> price---
+-- Mileage > year > Horsepower
 
--- Mileage
+-- Mileage  price drop per range
+SELECT 
+CASE 
+WHEN mileage < 50000 THEN '0-50K'
+WHEN mileage BETWEEN 50000 AND 100000 THEN '50K-100K'
+WHEN mileage BETWEEN 100000 AND 150000 THEN '100K-150K'
+ELSE '150K+'
+END AS Mileage_range, COUNT(*) AS Car_count, round(AVG(Price) ,2)AS Avg_Price
+FROM used_cars
+GROUP BY Mileage_range
+ORDER BY avg_price desc;
+
+

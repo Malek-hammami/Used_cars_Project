@@ -84,7 +84,7 @@ GROUP BY brand_name,`year`
 ORDER BY  AVG_price asc
 LIMIT 1 );
 
--- Measure of how the columns influences the price
+-- Measure of how the columns influences the price using correlation_coefficient
 -- Horsepower and price 
 
 select (count(*)*sum(horsepower*price)-sum(horsepower)*sum(price))/
@@ -106,4 +106,17 @@ select (count(*)*sum(Mileage*price)-sum(Mileage)*sum(price))/
 (count(*)*SUM(Mileage*Mileage)-sum(Mileage)*sum(Mileage)))) as correlation_coefficient
 FROM used_cars ; -- when Mileage+ ==> price--
 -- Mileage > Horsepower > year
+
+-- location analysis
+SELECT distinct(Location)as city  ,sum( price) as Total_price 
+FROM used_cars
+GROUP BY  city
+ORDER BY  total_price desc
+limit 5;
+
+SELECT distinct(Location)as city  ,brand , count(*) as number_of_cars
+FROM used_cars
+GROUP BY city,brand
+HAVING city in('Tunis', 'Ariana','Sousse','Ben Arous','Sfax')
+ORDER by number_of_cars DESC;
 

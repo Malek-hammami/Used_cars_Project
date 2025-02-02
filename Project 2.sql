@@ -57,20 +57,19 @@ WHERE `year` is NULL and horsepower is NULL;
 
 -- ANALYSING DATA
 
+-- price Analysis
+
 SELECT distinct(brand) as BRAND_NAME , sum(price) as TOTAL_PRICE ,  COUNT(*) AS num_cars
 FROM used_cars
 GROUP BY BRAND_NAME
 ORDER BY sum(price) desc;
 
 
--- yearly average price 
-
 SELECT `Year`, brand as Brand_Name,  ROUND(AVG(price),2) as AVERAGE_PRICE
 FROM used_cars
 GROUP BY `year` , Brand_Name
 ORDER BY `year` DESC ;
 
--- most and least average price
 
 (SELECT  `year`,brand as brand_name , round(sum(price)/COUNT(BRAND),2) as AVG_price 
 FROM used_cars

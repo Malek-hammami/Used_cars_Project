@@ -120,3 +120,16 @@ GROUP BY city,brand
 HAVING city in('Tunis', 'Ariana','Sousse','Ben Arous','Sfax')
 ORDER by number_of_cars DESC;
 
+--  Most popular Models 
+SELECT  brand , count(brand) as Brand_count
+FROM used_cars
+GROUP BY  brand
+ORDER BY Brand_count DESC 
+limit 10;
+
+SELECT distinct(brand), Model , count(*) as Number_of_Models
+FROM used_cars
+GROUP BY brand , model
+having brand in ('Volkswagen', 'Peugeot', 'Renault', 'Citroen', 'Mercedes-Benz', 'Fiat', 'Kia', 'BMW', 'Ford', 'Hyundai')
+ORDER BY Number_of_Models desc;
+

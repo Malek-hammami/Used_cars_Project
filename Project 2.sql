@@ -143,4 +143,20 @@ FROM used_cars
 GROUP BY Mileage_range
 ORDER BY avg_price desc;
 
+-- Year influence on price  per range
+
+SELECT
+CASE
+WHEN  (2025-`year`) BETWEEN 0 AND 5 THEN '0-5'
+WHEN  (2025-`year`) BETWEEN 5 AND 10 THEN '5-10'
+WHEN  (2025-`year`) BETWEEN 10 AND 15 THEN '10-15'
+ELSE '15+'
+END AS YEAR_range , count(*) as Car_count,round(AVG(Price) ,2)AS Avg_Price
+FROM used_cars
+group by YEAR_range
+ORDER BY avg_price desc;
+
+
+
+
 

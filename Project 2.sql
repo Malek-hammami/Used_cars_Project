@@ -64,12 +64,10 @@ FROM used_cars
 GROUP BY BRAND_NAME
 ORDER BY sum(price) desc;
 
-
 SELECT `Year`, brand as Brand_Name,  ROUND(AVG(price),2) as AVERAGE_PRICE
 FROM used_cars
 GROUP BY `year` , Brand_Name
 ORDER BY `year` DESC ;
-
 
 (SELECT  `year`,brand as brand_name , round(sum(price)/COUNT(BRAND),2) as AVG_price 
 FROM used_cars
@@ -82,29 +80,6 @@ FROM used_cars
 GROUP BY brand_name,`year`
 ORDER BY  AVG_price asc
 LIMIT 1 );
-
--- Measure of how the columns influences the price using correlation_coefficient
--- Horsepower and price 
-
-select (count(*)*sum(horsepower*price)-sum(horsepower)*sum(price))/
-(sqrt((COUNT(*)*SUM(price*price)-sum(price)*sum(price))*
-(count(*)*SUM(horsepower*horsepower)-sum(horsepower)*sum(horsepower)))) as correlation_coefficient
-FROM used_cars ; -- when horsepower + ==> price++
-
--- year and price
-
-select (count(*)*sum(`year`*price)-sum(`year`)*sum(price))/
-(sqrt((COUNT(*)*SUM(price*price)-sum(price)*sum(price))*
-(count(*)*SUM(`year`*`year`)-sum(`year`)*sum(`year`)))) as correlation_coefficient
-FROM used_cars ; -- when year + ==> price+
-
--- Mileage and price
-
-select (count(*)*sum(Mileage*price)-sum(Mileage)*sum(price))/
-(sqrt((COUNT(*)*SUM(price*price)-sum(price)*sum(price))*
-(count(*)*SUM(Mileage*Mileage)-sum(Mileage)*sum(Mileage)))) as correlation_coefficient
-FROM used_cars ; -- when Mileage+ ==> price--
--- Mileage > Horsepower > year
 
 -- location analysis
 SELECT distinct(Location)as city  ,sum( price) as Total_price 
@@ -132,3 +107,27 @@ GROUP BY brand , model
 having brand in ('Volkswagen', 'Peugeot', 'Renault', 'Citroen', 'Mercedes-Benz', 'Fiat', 'Kia', 'BMW', 'Ford', 'Hyundai')
 ORDER BY Number_of_Models desc;
 
+-- Measure of how the columns influences the price using correlation_coefficient
+-- Horsepower and price 
+
+select (count(*)*sum(horsepower*price)-sum(horsepower)*sum(price))/
+(sqrt((COUNT(*)*SUM(price*price)-sum(price)*sum(price))*
+(count(*)*SUM(horsepower*horsepower)-sum(horsepower)*sum(horsepower)))) as correlation_coefficient
+FROM used_cars ; -- when horsepower + ==> price++
+
+-- year and price
+
+select (count(*)*sum(`year`*price)-sum(`year`)*sum(price))/
+(sqrt((COUNT(*)*SUM(price*price)-sum(price)*sum(price))*
+(count(*)*SUM(`year`*`year`)-sum(`year`)*sum(`year`)))) as correlation_coefficient
+FROM used_cars ; -- when year + ==> price+
+
+-- Mileage and price
+
+select (count(*)*sum(Mileage*price)-sum(Mileage)*sum(price))/
+(sqrt((COUNT(*)*SUM(price*price)-sum(price)*sum(price))*
+(count(*)*SUM(Mileage*Mileage)-sum(Mileage)*sum(Mileage)))) as correlation_coefficient
+FROM used_cars ; -- when Mileage+ ==> price--
+-- Mileage > Horsepower > year
+
+-- Mileage

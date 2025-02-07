@@ -20,9 +20,7 @@ Kia – 61K DT average price
 ### Location and models
 
 - Top Locations: Among the top seven locations, Tunis has the highest share of listed cars at 32.66%, followed by Ariana with 18.65%. Ben Arous, Sfax, and Sousse each have less than 14%, while Nabeul and Monastir account for less than 10% of the market.
--
+- Model Distribution: The most common car models are concentrated in Tunis with 10 out of the top 13 models being primarily listed in there.
+- Market Trends: While Tunis has the highest number of listed cars, with Peugeot, Volkswagen, and Kia as the top three brands, the Renault Clio remains the most popular model across all regions with 144 listings especially in Ben Arous.
 
-
-
-
-![Image](https://github.com/user-attachments/assets/93ad52b7-14c8-4dbe-a9ef-dc9a593fd195)
+![Image](https://github.com/user-attachments/assets/16c49c50-baeb-4dc6-b372-ca4bcbfbd04f)

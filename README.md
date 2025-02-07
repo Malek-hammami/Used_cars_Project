@@ -17,3 +17,12 @@ Peugeot – 39K DT average price
 Kia – 61K DT average price
 ![Image](https://github.com/user-attachments/assets/03b2483f-82e9-4aa8-b7c7-68c1ebfe2376)
 
+### Location and models
+
+- Top Locations: Among the top seven locations, Tunis has the highest share of listed cars at 23.66%, followed by Ariana with 18.65%. Ben Arous, Sfax, and Sousse each have less than 14%, while Nabeul and Monastir account for less than 10% of the market.
+-
+
+
+
+
+![Image](https://github.com/user-attachments/assets/93ad52b7-14c8-4dbe-a9ef-dc9a593fd195)

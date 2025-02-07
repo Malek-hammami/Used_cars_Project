@@ -19,7 +19,7 @@ Kia – 61K DT average price
 
 ### Location and models
 
-- Top Locations: Among the top seven locations, Tunis has the highest share of listed cars at 23.66%, followed by Ariana with 18.65%. Ben Arous, Sfax, and Sousse each have less than 14%, while Nabeul and Monastir account for less than 10% of the market.
+- Top Locations: Among the top seven locations, Tunis has the highest share of listed cars at 32.66%, followed by Ariana with 18.65%. Ben Arous, Sfax, and Sousse each have less than 14%, while Nabeul and Monastir account for less than 10% of the market.
 -
 
 

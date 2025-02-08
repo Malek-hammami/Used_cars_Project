@@ -56,10 +56,10 @@ Kia – 61K DT average price
 
 -  with correlation coefficent of 0.291  so As year increases car prices increases but will work with Car AGE so as Car AGE increases prices drops:
 
- - 0-5 Years Old ==> Highest average price 81K DT
- - 5-10 Years Old ==> Drops 25.39% to 60K DT
- - 10-15 Years Old ==> Biggest Drop 31.46% to 41K DT
- - 15+ Years Old ==> Drop 24.70% to 31K DT
+  - 0-5 Years Old ==> Highest average price 81K DT
+  - 5-10 Years Old ==> Drops 25.39% to 60K DT
+  - 10-15 Years Old ==> Biggest Drop 31.46% to 41K DT
+  - 15+ Years Old ==> Drop 24.70% to 31K DT
 
 ### Best Car AGE to Buy a Car
 

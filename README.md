@@ -28,7 +28,7 @@ Kia – 61K DT average price
 ### Key Factors Affecting Car Prices
 
 - Based on the correlation coefficient analysis, the top three factors affecting car prices are:
-1- Year – has the strongest impact on price.
+1- Car AGE – has the strongest impact on price.
 2- Mileage – also significantly influences the price.
 3- Horsepower – has a much lower effect compared to the other two.
 
@@ -44,11 +44,32 @@ Kia – 61K DT average price
   - 100K-150K miles ==> Drops 11.33% to 56k DT
   - 150K+ miles → Biggest drop 34.15% to 36k DT
 
-## Best Mileage Range to Buy a Car
+### Best Mileage Range to Buy a Car
 
 - The 50K-100K mileage range is a good choice for balancing price and value:
 
   - The car has already lost most of its value in the first 50K miles.
   - It still has a decent lifespan before needing expensive repairs.
   - Its resale value won’t decrease as quickly as higher-mileage cars.
+ 
+### How  Car AGE affects the price
+
+-  with correlation coefficent of 0.291  so As year increases car prices increases but will work with Car AGE so as Car AGE increases prices drops:
+
+ - 0-5 Years Old ==> Highest average price 81K DT
+ - 5-10 Years Old ==> Drops 25.39% to 60K DT
+ - 10-15 Years Old ==> Biggest Drop 31.46% to 41K DT
+ - 15+ Years Old ==> Drop 24.70% to 31K DT
+
+### Best Car AGE to Buy a Car
+
+- The 10-15 Years Old range is a good option for getting a car at a lower price while still being able to resell it later:
+
+  - The biggest price drop (-31.46%) happens here, so you can buy it for much less.
+  - The car has already lost most of its value, so it won’t drop as fast in the future.
+  - It can still be used for a few years before reaching the higher-maintenance 15+ year range.
+  - Its resale value stays more stable compared to newer cars, which lose value quickly.
+
+![Image](https://github.com/user-attachments/assets/1cd6c31b-b7a9-435c-b82c-8da91392dc98)
+
 

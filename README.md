@@ -33,5 +33,22 @@ Kia – 61K DT average price
 3- Horsepower – has a much lower effect compared to the other two.
 
 
-
 ![Image](https://github.com/user-attachments/assets/cd61a0c2-2102-450d-b286-6e74ca91aff9)
+
+### How Mileage affects the price
+
+- with correlation coefficent of -0.2555  so As mileage increases car prices drop:
+
+  - 0-50K miles ==> Highest avrage price 83k DT
+  - 50K-100K miles ==> Drops 24.13% to 63k DT
+  - 100K-150K miles ==> Drops 11.33% to 56k DT
+  - 150K+ miles → Biggest drop 34.15% to 36k DT
+
+## Best Mileage Range to Buy a Car
+
+- The 50K-100K mileage range is a good choice for balancing price and value:
+
+  - The car has already lost most of its value in the first 50K miles.
+  - It still has a decent lifespan before needing expensive repairs.
+  - Its resale value won’t decrease as quickly as higher-mileage cars.
+

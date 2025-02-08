@@ -3,7 +3,7 @@
 # Project overview
 The used cars market in Tunisia is a growing industry with many opportunities. This project helps investors by identifying key factors like the best locations for sales the top car brands and models and how factors like mileage and age affect prices. The data was scraped from 'Tayara.tn' in december 2024 a popular marketplace to provide real insights. With this analysis investors can better understand the market and make smarter decisions.
 
-# Insights Deep-Dive
+# Analysis
 
 ### key factors
 
@@ -35,6 +35,8 @@ Kia – 61K DT average price
 
 ![Image](https://github.com/user-attachments/assets/cd61a0c2-2102-450d-b286-6e74ca91aff9)
 
+# Deep-dive and recomandations
+
 ### How Mileage affects the price
 
 - with correlation coefficent of -0.2555  so As mileage increases car prices drop:
@@ -55,12 +57,10 @@ Kia – 61K DT average price
 ### How  Car AGE affects the price
 
 -  with correlation coefficent of 0.291  so As year increases car prices increases but will work with Car AGE so as Car AGE increases prices drops:
-
   - 0-5 Years Old ==> Highest average price 81K DT
   - 5-10 Years Old ==> Drops 25.39% to 60K DT
   - 10-15 Years Old ==> Biggest Drop 31.46% to 41K DT
   - 15+ Years Old ==> Drop 24.70% to 31K DT
-
 ### Best Car AGE to Buy a Car
 
 - The 10-15 Years Old range is a good option for getting a car at a lower price while still being able to resell it later:

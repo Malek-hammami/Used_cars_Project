@@ -24,3 +24,14 @@ Kia – 61K DT average price
 - Market Trends: While Tunis has the highest number of listed cars, with Peugeot, Volkswagen, and Kia as the top three brands, the Renault Clio remains the most popular model across all regions with 144 listings especially in Ben Arous.
 
 ![Image](https://github.com/user-attachments/assets/16c49c50-baeb-4dc6-b372-ca4bcbfbd04f)
+
+### Key Factors Affecting Car Prices
+
+- Based on the correlation coefficient analysis, the top three factors affecting car prices are:
+1- Year – has the strongest impact on price.
+2- Mileage – also significantly influences the price.
+3- Horsepower – has a much lower effect compared to the other two.
+
+
+
+![Image](https://github.com/user-attachments/assets/cd61a0c2-2102-450d-b286-6e74ca91aff9)

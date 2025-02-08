@@ -48,7 +48,7 @@ Kia – 61K DT average price
 
 ### Best Mileage Range to Buy a Car
 
-- The 50K-100K mileage range is a good choice for balancing price and value:
+- The 50K-100K mileage range is a good choice for balancing price and value while still being able to resell it later:
 
   - The car has already lost most of its value in the first 50K miles.
   - It still has a decent lifespan before needing expensive repairs.

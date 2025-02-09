@@ -24,10 +24,9 @@ The used cars market in Tunisia is a growing industry with many opportunities. T
 - **Market Value**: The total value of used cars listed on Tayara is approximately 240 million DT for just 4,410 cars.
 - **Top Brands**: Volkswagen and Peugeot dominate the market, making up 9.14% and 8.46% of the listings, respectively. They are followed by Renault, Citroën, Mercedes, Kia, and others, each representing 5% or less. Lexus and GMC have the smallest presence, with just 0.02% of the market each.
 - **Luxury and Availability**: Mercedes has 236 cars listed, with a total market value of 23 million DT and an average price of 99K DT per car. It ranks among the top five most expensive brands but remains widely available. for comparison Land Rover in contrast has an average price of 227K DT per car but only 28 cars listed making it one of the most exclusive brands.
-- **Most Listed Brands**: Volkswagen Peugeot and Kia stand out with the highest number of listings contributing significantly to the total market value. While they are not the most affordable options they offer a broad range of choices:
-    - Volkswagen – 53K DT average price
-    - Peugeot – 39K DT average price
-    - Kia – 61K DT average price
+- **Most Listed Brands vs. Average Price**:
+The markets most listed car brands fall into two categories. The first includes Mercedes Volkswagen and Kia which rank among the most frequently listed vehicles while maintaining high average prices going from 53K DT to 99K DT. On the other hand Peugeot Citroen and Renault are also among the most listed brands but have a lower average price range of 34K DT to 39K DT making them the more affordable options.
+
 ![Image](https://github.com/user-attachments/assets/03b2483f-82e9-4aa8-b7c7-68c1ebfe2376)
 
 ### Location and models

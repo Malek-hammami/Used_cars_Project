@@ -1,4 +1,17 @@
-# Tunisian used cars market
+# Tunisian used cars market Analysis
+
+Table of Contents
+
+- [Project overview](#Project-overview)
+- [key factors](#key-factors)
+    - [Brands](#Brands)
+    - [Location and models](#Location-and-models)
+    - [Key Factors Affecting Car Prices](#Key-Factors-Affecting-Car-Prices)
+    - [How Mileage affects the price](#How-Mileage-affects-the-price)
+    - [How Car AGE affects the price](#How-Car-AGE-affects-the-price)
+- [Recomandations](#Recomandations)
+    - [Best Mileage Range to Buy a Car](#Best-Mileage-Range-to-Buy-a-Car)
+    - [Best Car AGE to Buy a Car](#Best-Car-AGE-to-Buy-a-Car)
 
 # Project overview
 The used cars market in Tunisia is a growing industry with many opportunities. This project helps investors by identifying key factors like the best locations for sales the top car brands and models and how factors like mileage and age affect prices. The data was scraped from 'Tayara.tn' in december 2024 a popular marketplace to provide real insights. With this analysis investors can better understand the market and make smarter decisions.
@@ -35,8 +48,6 @@ The used cars market in Tunisia is a growing industry with many opportunities. T
 
 ![Image](https://github.com/user-attachments/assets/cd61a0c2-2102-450d-b286-6e74ca91aff9)
 
-# Deep-dive and recomandations
-
 ### How Mileage affects the price
 
 - with correlation coefficent of -0.2555  so As mileage increases car prices drop:
@@ -45,6 +56,19 @@ The used cars market in Tunisia is a growing industry with many opportunities. T
   - **50K-100K** kilometre ==> Drops 24.13% to 63k DT
   - **100K-150K** kilometre ==> Drops 11.33% to 56k DT
   - **150K+** kilometre → Biggest drop 34.15% to 36k DT
+ 
+### How Car AGE affects the price
+
+-  with correlation coefficent of 0.291  so As year increases car prices increases but will work with Car AGE so as Car AGE increases prices drops:
+
+    - **0-5** Years Old ==> Highest average price 81K DT
+    - **5-10** Years Old ==> Drops 25.39% to 60K DT
+    - **10-15** Years Old ==> Biggest Drop 31.46% to 41K DT
+    - **15+** Years Old ==> Drop 24.70% to 31K DT
+
+![Image](https://github.com/user-attachments/assets/1cd6c31b-b7a9-435c-b82c-8da91392dc98)
+
+### Recomandations
 
 ### Best Mileage Range to Buy a Car
 
@@ -53,15 +77,7 @@ The used cars market in Tunisia is a growing industry with many opportunities. T
   - The car has already lost most of its value in the first 50K miles.
   - It still has a decent lifespan before needing expensive repairs.
   - Its resale value won’t decrease as quickly as higher-mileage cars.
- 
-### How  Car AGE affects the price
-
--  with correlation coefficent of 0.291  so As year increases car prices increases but will work with Car AGE so as Car AGE increases prices drops:
-
-    - **0-5** Years Old ==> Highest average price 81K DT
-    - **5-10** Years Old ==> Drops 25.39% to 60K DT
-    - **10-15** Years Old ==> Biggest Drop 31.46% to 41K DT
-    - **15+** Years Old ==> Drop 24.70% to 31K DT
+  
 ### Best Car AGE to Buy a Car
 
 - The 10-15 Years Old range is a good option for getting a car at a lower price while still being able to resell it later:
@@ -70,7 +86,5 @@ The used cars market in Tunisia is a growing industry with many opportunities. T
   - The car has already lost most of its value, so it won’t drop as fast in the future.
   - It can still be used for a few years before reaching the higher-maintenance 15+ year range.
   - Its resale value stays more stable compared to newer cars, which lose value quickly.
-
-![Image](https://github.com/user-attachments/assets/1cd6c31b-b7a9-435c-b82c-8da91392dc98)
 
 

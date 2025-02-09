@@ -10,9 +10,10 @@ Table of Contents
     - [How Mileage affects the price](#How-Mileage-affects-the-price)
     - [How Car AGE affects the price](#How-Car-AGE-affects-the-price)
 - [Recomandations](#Recomandations)
-    - [Best Brands to Buy](#Best-Brands-to-Buy)
-    - [Best Mileage Range to Buy a Car](#Best-Mileage-Range-to-Buy-a-Car)
-    - [Best Car AGE to Buy a Car](#Best-Car-AGE-to-Buy-a-Car)
+    - [Best Brands](#Best-Brands)
+    - [Best Location](#Best-Location)
+    - [Best Mileage Range ](#Best-Mileage-Range)
+    - [Best Car AGE ](#Best-Car-AGE)
 
 # Project overview
 The used cars market in Tunisia is a growing industry with many opportunities. This project helps investors by identifying key factors like the best locations for sales the top car brands and models and how factors like mileage and age affect prices. The data was scraped from 'Tayara.tn' in december 2024 a popular marketplace to provide real insights. With this analysis investors can better understand the market and make smarter decisions.
@@ -70,7 +71,7 @@ The markets most listed car brands fall into two categories. The first includes 
 
 # Recomandations
 
-### Best Brands to Buy 
+### Best Brands 
 
 Picking the right car brand in Tunisia depends on your budget and needs. Here’s a simple breakdown:
 
@@ -79,8 +80,16 @@ Picking the right car brand in Tunisia depends on your budget and needs. Here’
 - Luxury but Widely Available: Mercedes has 236 listings with an average price of 99K DT offering a high-end choice that is still relatively easy to find.
 - Rare & Expensive: Land Rover is much harder to find, with only 28 listings, but it comes with a high average price of 227K DT.
 
+### Best Location 
 
-### Best Mileage Range to Buy a Car
+The location you choose can affect how many cars are available and their prices. Here’s a simple breakdown:
+
+- Biggest Market: Tunis has the most listings, making up 32.66% of the total. This gives buyers more options and a better chance of finding popular models.
+- Good Availability: Ariana comes next with 18.65% of the listings, offering a fair number of choices.
+- Smaller Markets: Ben Arous, Sfax, and Sousse each have less than 14% of the listings. However, Ben Arous has the most Renault Clio listings, which is the most popular model overall.
+
+
+### Best Mileage Range 
 
 - The 50K-100K mileage range is a good choice for balancing price and value while still being able to resell it later:
 
@@ -88,7 +97,7 @@ Picking the right car brand in Tunisia depends on your budget and needs. Here’
   - It still has a decent lifespan before needing expensive repairs.
   - Its resale value won’t decrease as quickly as higher-mileage cars.
   
-### Best Car AGE to Buy a Car
+### Best Car AGE 
 
 - The 10-15 Years Old range is a good option for getting a car at a lower price while still being able to resell it later:
 

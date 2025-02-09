@@ -6,7 +6,7 @@ Table of Contents
 - [key factors](#key-factors)
     - [Brands](#Brands)
     - [Location and models](#Location-and-models)
-    - [Key Factors Affecting Car Prices](#Key-Factors-Affecting-Car-Prices)
+    - [Correlation Coefficient](#Correlation-Coefficient)
     - [How Mileage affects the price](#How-Mileage-affects-the-price)
     - [How Car AGE affects the price](#How-Car-AGE-affects-the-price)
 - [Recomandations](#Recomandations)
@@ -38,7 +38,7 @@ The used cars market in Tunisia is a growing industry with many opportunities. T
 
 ![Image](https://github.com/user-attachments/assets/16c49c50-baeb-4dc6-b372-ca4bcbfbd04f)
 
-### Key Factors Affecting Car Prices
+### Correlation Coefficient
 
 - Based on the correlation coefficient analysis, the top three factors affecting car prices are:
 1- **Car AGE** – has the strongest impact on price.

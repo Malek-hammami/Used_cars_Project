@@ -10,6 +10,7 @@ Table of Contents
     - [How Mileage affects the price](#How-Mileage-affects-the-price)
     - [How Car AGE affects the price](#How-Car-AGE-affects-the-price)
 - [Recomandations](#Recomandations)
+    - [Best Brands to Buy](#Best-Brands-to-Buy)
     - [Best Mileage Range to Buy a Car](#Best-Mileage-Range-to-Buy-a-Car)
     - [Best Car AGE to Buy a Car](#Best-Car-AGE-to-Buy-a-Car)
 
@@ -67,7 +68,17 @@ The markets most listed car brands fall into two categories. The first includes 
 
 ![Image](https://github.com/user-attachments/assets/1cd6c31b-b7a9-435c-b82c-8da91392dc98)
 
-### Recomandations
+# Recomandations
+
+### Best Brands to Buy 
+
+Picking the right car brand in Tunisia depends on your budget and needs. Here’s a simple breakdown:
+
+- Affordable Options: Peugeot Citroen and Renault have many listings with lower average prices between 34K DT and 39K DT making them good choices for buyers looking for budget-friendly cars.
+- Moderate Price Range: Volkswagen and Kia are also commonly listed but their prices are higher ranging from 53K DT to 61K DT.
+- Luxury but Widely Available: Mercedes has 236 listings with an average price of 99K DT offering a high-end choice that is still relatively easy to find.
+- Rare & Expensive: Land Rover is much harder to find, with only 28 listings, but it comes with a high average price of 227K DT.
+
 
 ### Best Mileage Range to Buy a Car
 

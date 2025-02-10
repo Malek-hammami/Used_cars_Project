@@ -67,7 +67,7 @@ The markets most listed car brands fall into two categories. The first includes 
     - **10-15** Years Old ==> Biggest Drop 31.46% to 41K DT
     - **15+** Years Old ==> Drop 24.70% to 31K DT
 
-![Image](https://github.com/user-attachments/assets/1cd6c31b-b7a9-435c-b82c-8da91392dc98)
+![Image](https://github.com/user-attachments/assets/5ff3e615-fe8c-4733-87d1-a186b3b52934)
 
 # Recomandations
 

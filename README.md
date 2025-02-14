@@ -95,7 +95,7 @@ The location you choose can affect how many cars are available and their prices.
 
   - The car has already lost most of its value in the first 50K miles.
   - It still has a decent lifespan before needing expensive repairs.
-  - Its resale value won’t decrease as quickly as higher-mileage cars.
+  - Its resale value won’t decrease as quickly as higher or lower mileage cars.
   
 ### Best Car AGE 
 
@@ -103,7 +103,7 @@ The location you choose can affect how many cars are available and their prices.
 
   - The biggest price drop (-31.46%) happens here, so you can buy it for much less.
   - The car has already lost most of its value, so it won’t drop as fast in the future.
-  - It can still be used for a few years before reaching the higher-maintenance 15+ year range.
-  - Its resale value stays more stable compared to newer cars, which lose value quickly.
+  - It can still be used for a few years before reaching the higher maintenance 15+ year range.
+  - Its resale value stays more stable compared to newer or older cars, which lose value quickly.
 
 
